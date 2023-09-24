@@ -37,9 +37,7 @@ text-align: center;
 }
 aside img {
     width: 150px;
-    height: auto;
-    ...
-}
+    height: auto;}
 p {padding: 0;}
 footer {
     margin-top: 1em;
