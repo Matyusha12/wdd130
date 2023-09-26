@@ -1,12 +1,11 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wegiht@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wegiht@400;700&display=swap');
 
 :root {
-    --primary-color: #31378E; 
-    --secondary-color: #4A5787;
-    --accent-color-1: #2EB6A0; 
-    --accent-color-2: #32E61E; 
+    --primary-color: #8C6340; 
+    --secondary-color: #10A7F9;
+    --accent-color-1: #77BA99; 
+    --accent-color-2: #F5E7E0; 
    
     --heading-font: 'Montserrat', sans-serif;
     --paragraph-font: 'Open Sans', sans-serif;
@@ -29,33 +28,33 @@ h1, h2, h3, h4, h5, h6 {
     color: #070705;
 }
 
-    header {
-        background-color: var(--accent1-color); 
-        padding: 20px; 
-    }
+header {
+    background-color: var(--accent1-color); 
+    padding: 20px; 
+}
 
-    p{
-        padding: 25px;
-    }
+p{
+    padding: 25px;
+}
 
-    nav {
-        background-color: var(--nav-background-color); 
-        font-size: 1.2rem;
-       display:flex;
-    }
+nav {
+    background-color: var(--nav-background-color); 
+    font-size: 1.2rem;
+    display:flex;
+}
     
-    nav a {
-        color: var(--nav-link-color); 
-        text-decoration: none; 
-        padding: 1rem;
-        display: block;
-    }
+nav a {
+    color: var(--nav-link-color); 
+    text-decoration: none; 
+    padding: 1rem;
+    display: block;
+}
     
-    nav a:link, nav a:visited {
-        color: var(--nav-link-color);
-    }
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
  
-    nav a:hover {
-        color: var(--nav-hover-link-color); 
-        background-color: var(--nav-hover-background-color); 
-    }
+nav a:hover {
+    color: var(--nav-hover-link-color); 
+    background-color: var(--nav-hover-background-color); 
+}
