@@ -9,7 +9,8 @@ nav a {
     padding: 20px;
 }
 
-hl {  color: steelblue;
+hl {
+    color: steelblue;
 }
 
 img {
@@ -24,20 +25,28 @@ p {
     padding: 10px;
 }
 
-main {max-width: 840px;
+main {
+    max-width: 840px;
 }
-aside {width: 20rem;
-margin: 1rem;
-border: 1px solid rgba(0, 0, 0, 0.2);/* 1 */
-padding: 1rem;
-background-color: #eee;
-color: #333;
-text-align: center;
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);/* 1 */
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
 }
+
 aside img {
     width: 150px;
-    height: auto;}
-p {padding: 0;}
+    height: auto;
+}
+
+p {padding: 0;
+}
+
 footer {
     margin-top: 1em;
     border-top: 1px solid #000;

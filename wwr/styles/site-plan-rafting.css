@@ -1,6 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wegiht@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wegiht@400;700&display=swap');
 
 :root {
     --primary-color: #31378E; 
@@ -16,20 +16,24 @@
     --nav-hover-link-color: #4A5787; 
     --nav-hover-background-color: #2EB6A0; 
 }
+
 body {
     font-family: var(--paragraph-font);
     max-width: 960px; 
     margin: 0 auto;
     padding: 20px; 
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font); 
-    color: #D8DB7F;}
+    color: #D8DB7F;
+}
 
     header {
         background-color: var(--accent1-color); 
         padding: 20px; 
     }
+
     p{
         padding: 25px;
     }
@@ -47,8 +51,8 @@ h1, h2, h3, h4, h5, h6 {
         display: block;
     }
     
-    nav a:link, nav a:visited
-    {color: var(--nav-link-color);
+    nav a:link, nav a:visited {
+        color: var(--nav-link-color);
     }
  
     nav a:hover {
