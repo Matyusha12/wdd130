@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+:root {
+    --primary-color: #77BA99;
+    --secondary-color: #10A7F9;
+    --accent1-color: #dd6f38;
+    --accent2-color: #8C6340;
+   
+    --heading-font: 'Oswald', sans-serif;
+    --paragraph-font: 'Open Sans', sans-serif;
+    
+    --nav-background-color: #77BA99; 
+    --nav-link-color: #F5E7E0; 
+    --nav-hover-link-color: #8C6340; 
+    --nav-hover-background-color: #77BA99; 
+}
+
+p{
+    padding: 25px;
+}
+
+
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+h1{
+    position: absolute;
+}
+article{
+    position: absolute;
+}
