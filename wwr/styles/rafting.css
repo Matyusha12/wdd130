@@ -16,20 +16,33 @@
     --nav-hover-background-color: #77BA99; 
 }
 
-p{
-    padding: 25px;
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px; 
+    margin: 0 auto;
 }
 
+h1, h2 {
+    font-family: var(--heading-font); 
+    color: #000000;
+}
 
+header {
+    font-family: var(--heading-font)
+}
 
-.hero img{
+p {
+    padding: 5px;
+}
+
+/* Class Selectors */
+.hero img {
     display: block;
-    width: 100%;
+    width: 500px;
     height: auto;
+    position: relative;
 }
-h1{
-    position: absolute;
-}
-article{
-    position: absolute;
+
+.social-links a {
+        text-decoration: none;      
 }
