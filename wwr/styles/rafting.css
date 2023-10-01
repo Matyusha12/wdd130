@@ -63,7 +63,7 @@ p {
 .hero-article {
     position: absolute;
     margin: 3.5rem;
-    padding: 20px;
+    padding: 15px;
     top: 150px;
     left: 0;
     background-color: #77ba98d7;
@@ -76,13 +76,9 @@ p {
     float: right;
 }
 
-.social-links a {
-        text-decoration: none;      
-}
-
 nav {
     font-size: 1.5rem;
-    display:flex;
+    display: flex;
 }
     
 nav a {
@@ -91,11 +87,7 @@ nav a {
     text-decoration: none; 
     padding: 5px;
 }
-    
-nav a:link, nav a:visited {
-    color: var(--nav-link-color);
-}
- 
+
 nav a:hover {
     color: var(--nav-hover-link-color);
 }
