@@ -10,12 +10,14 @@
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="Whitewater Rafting Logo">
+        <img src="images/logo.png" alt="Whitewater Rafting Logo" class="logo">
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
 <main>
@@ -27,22 +29,33 @@
             <p>The Whitewater Rafting Company specializes in guided whitewater rafting adventures, offering a variety of tour packages designed to suit all skill levels.</p>
         </article>
     </div>
-    <section>
-        <h2>History</h2>
-        <p>The Whitewater Rafting Company has been delivering fun river adventures since 2018, turning novices into skilled rafters while showing off the beauty of our state's rivers.</p>
-    </section>
-    <section>
-        <h2>Adventure Awaits You!</h2>
-        <img src="images/raft-1.jpg" alt="Rafting photo 1">
-        <img src="images/raft-2.jpg" alt="Rafting photo 2">
-        <img src="images/raft-3.jpg" alt="Rafting photo 3">
-        <img src="images/raft-4.jpg" alt="Rafting photo 4">
-        <img src="images/raft-5.jpg" alt="Rafting photo 5">
-    </section>
+    <div class="grid-container">
+    <div class="grid-item1"> <h2>History</h2>
+        <img src="images/history.jpg" alt="History" width="350"></div>
+        <div class="grid-item2"><p>The Whitewater Rafting Company has been delivering fun river adventures since 2018, turning novices into skilled rafters while showing off the beauty of our state's rivers. With a variety of rapids ranging from beginner to expert levels, we offer a range of experiences. Whether you are looking for a serene float down calm waters, or seeking the adrenaline rush that comes from navigating through Class V rapids, we have something for everyone.  </p></div> 
+         <div class="grid-item3"><p>Over the years, we have garnered numerous awards for safety and customer service, and have been featured in several travel and adventure magazines. As we continue to expand our offerings and explore new rivers, we remain steadfast in our original mission: to provide an unforgettable outdoor experience while showcasing the natural beauty and ecological diversity of our rivers.</p></div>
+    </div>
+    </div>
+    
+    <div class="flex-container">
+            <h2>Adventure Awaits You!</h2>
+            <div class="image-container">
+            <figure><img src="images/raft-1.jpg" alt="Rafting photo 1" width="200">
+            <figcaption>Whitewater Odyssey</figcaption></figure>
+            <figure><img src="images/raft-2.jpg" alt="Rafting photo 2" width="200">
+            <figcaption>Raging Rapids</figcaption></figure>
+            <figure><img src="images/raft-3.jpg" alt="Rafting photo 3" width="200">
+            <figcaption>Canyon Quest</figcaption></figure>
+            <figure><img src="images/raft-4.jpg" alt="Rafting photo 4" width="200">
+            <figcaption>Thunder Falls</figcaption></figure>
+            <figure><img src="images/raft-5.jpg" alt="Rafting photo 5" width="200">
+            <figcaption>River Mysteries</figcaption></figure>
+    </div>
+    </div>
 </main>
-<footer>
-    <p>&copy;2023 &#9786; Whitewater Rafting Company &#9786; Natalia Iakovleva</p>
-    <nav class="sociallinks">
+<footer class="footer-grid">
+    <p class="footer-text">&copy;2023 &#9786; Whitewater Rafting Company &#9786; Natalia Iakovleva</p>
+    <nav class="footer-nav">
         <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
         <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
         <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram"></a>

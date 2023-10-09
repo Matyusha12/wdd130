@@ -4,7 +4,7 @@
 :root {
     --primary-color: #77BA99;
     --secondary-color: #10A7F9;
-    --accent1-color: #dd6f38;
+    --accent1-color: #DD6F38;
     --accent2-color: #8C6340;
    
     --heading-font: 'Oswald', sans-serif;
@@ -16,13 +16,14 @@
 
 body {
     font-family: var(--paragraph-font);
-    max-width: 960px; 
+    max-width: 1060px; 
     margin: auto;
 }
 
 h1 {
     font-family: var(--heading-font);
     font-size: 3rem;
+
 }
 
 h2 {
@@ -32,6 +33,12 @@ h2 {
 }
 
 header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
     font-family: var(--heading-font)
 }
 
@@ -42,6 +49,9 @@ p {
 nav {
     font-size: 1.5rem;
     display: flex;
+    float: right;
+    position: relative;
+    text-align: right;
 }
     
 nav a {
@@ -56,6 +66,34 @@ nav a:hover {
 }
 
 /* Class Selectors */
+.logo img {
+	margin: 0 50% 0 50rem;
+	width: 64px;
+	height: auto;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+    white-space: nowrap;
+}
+
+.navigation a {
+	display: 
+    block;
+	color: #77BA99;
+	padding: 20px;
+}
+
+.navigation a:hover {
+	color: #DD6F38;
+	font-weight: 800;
+}
+
 .hero {
     position: relative;
 }
@@ -92,6 +130,71 @@ nav a:hover {
     float: right;
 }
 
-.sociallinks {
-    text-decoration: none;
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
+
+.grid-item {
+    width: auto; 
+ 
+}
+.grid-item1 {
+    order: 2;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+
+}
+
+.grid-item2 {
+    order: 1;
+    border: none;
+    padding-top: 75px;
+    padding-right: 2px;
+    text-align: justify;
+ 
+}
+.grid-item3 {
+    order: 3;
+    border: none;
+    padding-top: 75px;
+    padding-left: 2px;
+    text-align: justify;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: auto;
+    text-align: center;
+}
+.footer-grid {
+    display: flex;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+   justify-content: space-between;
+ }
+  .footer-text {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    flex-grow: 1;
+  } 
+  .footer-nav {
+    display: flex;
+    gap: 10px; 
+    margin-right: 10px;
+  }
+  .footer-nav a img {
+    width: 30px;
+    height: auto;
+  }
+  
