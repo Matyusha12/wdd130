@@ -173,7 +173,7 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: auto;
+    gap: 10px;
     text-align: center;
 }
 .footer-grid {
