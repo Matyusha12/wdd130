@@ -67,7 +67,6 @@ nav a:hover {
     color: var(--nav-hover-link-color);
 }
 
-/* Class Selectors */
 .logo img {
 	margin: 0 50% 0 50rem;
 	width: 64px;
@@ -227,18 +226,7 @@ nav a:hover {
     background-color: #18e930;
   }
   
-  #employee-profiles {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-  
-  .employee {
-    text-align: center;
-  }
-  
   .employee img {
-    max-width: 100%;
-    height: auto;
+   padding-top: 50px;
+   place-items:start;
   }
-  
