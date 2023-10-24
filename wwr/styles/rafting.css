@@ -201,15 +201,25 @@ nav a:hover {
   
 #company-info {
     text-align: left;
+    background-color: #e4edef;
+    padding-left: 30px;
+    padding-bottom: 30px;
 }
 
   #contact-form {
    margin-top: 20px;
+   background-color: #99a8ac;
+   padding-left: 30px;
+   padding-bottom: 30px;
   }
   
   #message{
     margin-top: 30px;
   }
+  #contact-form h2 {
+    text-align: left;
+  }
+
   button[type="submit"] {
     text-align: left;
     background-color: #1589d0f1;
@@ -222,13 +232,29 @@ nav a:hover {
   }
   
   button[type="submit"]:hover {
-    background-color: #18e930;
+    background-color: #431cd1;
+  }
+  .employee h2{
+    text-align: left;
+    color: #431cd1;
   }
   
-  .employee img {
-   padding-top: 50px;
-   place-items:start;
-  }
+  .employee-container {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    background-color: #cce1ec;
+}
+
+.employee-wrap {
+    text-align: left; 
+    margin: 0 15px;
+ }
+
+.employee {
+    display: block; 
+    margin-top: 20px; 
+}
 
   #image-container  {
     position: relative;
@@ -303,8 +329,6 @@ nav a:hover {
     from {top: -300px; opacity: 0}
     to {top: 0; opacity: 1} 
 }
-
-
 
 .call-to-action {
   background-color: #f1f0f0;
@@ -381,13 +405,13 @@ nav a:hover {
 .full-width-image {
     position: relative;
     text-align: center;
-    color: white; /* Выберите цвет, который будет хорошо виден на вашем изображении */
+    color: white; 
 }
 
 .full-width-image img {
     width: 100%;
     height: auto;
-    vertical-align: middle; /* убирает небольшой отступ снизу изображения */
+    vertical-align: middle; 
 }
 
 .image-text {
@@ -397,8 +421,7 @@ nav a:hover {
     width: 100%;
     background: rgba(131, 138, 135, 0.6);
     transform: translate(-50%, -50%);
-    color: rgb(14, 199, 223); /* Измените на любой цвет, который контрастирует с вашим изображением */
-    z-index: 1;
+    color: rgb(14, 199, 223); 
 }
 
 #call-to-action{
@@ -411,30 +434,27 @@ nav a:hover {
   background-color: #10A7F9;
   box-shadow:5px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(36, 148, 204, 0.19); 
 }
+
 #call-to-action h2{
     text-align: right;
     color: #7614c1
 }
+
  #grid-layout .grid-item{
 text-align: left;
 padding-top: 100px;
  }
+
  .newsletter{
     text-align: left;
     padding-bottom: 50px;
     background-color: #0f9bb8;
-    width: 45%
+    width: 50%;
+    padding-left: 30px;
+    padding-right: 20px;
 }
-.newsletter h2{
-    text-align: left;
-    padding-bottom: ;
-    color: #3f14c1;
-}
-#background{
-    background-image: url('images/background.jpg'); 
-    /* Optional properties for better appearance */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-size: cover; /* Makes sure the image covers the whole area of the element */
-    background-position: center center; /* Centers the image */
-    background-attachment: fixed; /* Makes the background fixed while scrolling */
+
+.newsletter h2 {
+ text-align: left;
+ color: #3f14c1;
 }
