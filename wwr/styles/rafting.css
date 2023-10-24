@@ -369,7 +369,7 @@ nav a:hover {
 .trip-descriptions article {
   flex: 1; 
   margin: 20px;
-  text-align: left; 
+  text-align: left;
 }
 
 .trip-descriptions .image-container {
@@ -383,7 +383,7 @@ nav a:hover {
 .trip-descriptions article h2, 
 .trip-descriptions article p {
   line-height: 1.2; 
-  margin-top: 0; 
+  margin-top: 60px; 
 }
 
 .trip-table {
