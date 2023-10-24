@@ -378,3 +378,63 @@ nav a:hover {
 .trip-table tr:nth-child(even) {
     background-color: #6bb2dc;
 }
+.full-width-image {
+    position: relative;
+    text-align: center;
+    color: white; /* Выберите цвет, который будет хорошо виден на вашем изображении */
+}
+
+.full-width-image img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle; /* убирает небольшой отступ снизу изображения */
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    background: rgba(131, 138, 135, 0.6);
+    transform: translate(-50%, -50%);
+    color: rgb(14, 199, 223); /* Измените на любой цвет, который контрастирует с вашим изображением */
+    z-index: 1;
+}
+
+#call-to-action{
+  margin-top: 20px;
+  padding: 20px;
+  text-align: right;
+  font-size: x-large;
+  font-style: normal;
+  color: #9e5b78;
+  background-color: #10A7F9;
+  box-shadow:5px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(36, 148, 204, 0.19); 
+}
+#call-to-action h2{
+    text-align: right;
+    color: #7614c1
+}
+ #grid-layout .grid-item{
+text-align: left;
+padding-top: 100px;
+ }
+ .newsletter{
+    text-align: left;
+    padding-bottom: 50px;
+    background-color: #0f9bb8;
+    width: 45%
+}
+.newsletter h2{
+    text-align: left;
+    padding-bottom: ;
+    color: #3f14c1;
+}
+#background{
+    background-image: url('images/background.jpg'); 
+    /* Optional properties for better appearance */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Makes sure the image covers the whole area of the element */
+    background-position: center center; /* Centers the image */
+    background-attachment: fixed; /* Makes the background fixed while scrolling */
+}
