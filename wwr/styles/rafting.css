@@ -31,7 +31,6 @@ h2 {
     color: #242221;
     font-size: 2rem;
     text-align: center;
-    padding-top: 50px;
 }
 
 header {
@@ -134,18 +133,18 @@ nav a:hover {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
 }
 
 .grid-item {
     width: auto; 
- 
 }
+
 .grid-item1 {
     order: 2;
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
-
 }
 
 .grid-item2 {
