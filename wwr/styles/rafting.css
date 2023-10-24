@@ -30,7 +30,7 @@ h2 {
     font-family: var(--heading-font); 
     color: #242221;
     font-size: 2rem;
-    text-align: left;
+    text-align: center;
     padding-top: 50px;
 }
 
@@ -230,19 +230,17 @@ nav a:hover {
    place-items:start;
   }
 
-  .image-container {
+  #image-container  {
     position: relative;
     width: 100%;
     height: 450px; 
 }
 
-.image-container img {
+ #image-container img {
     width: 100%;
     height: 100%; 
     object-fit: cover; 
 }
-
-
 .overlay-content {
     position: absolute;
     top: 50%;
@@ -254,9 +252,7 @@ nav a:hover {
     width: 100%;
     padding: 10px; 
     box-sizing: border-box;
-}
-
-  
+}  
 .booking-button {
     display: inline-block;
     padding: 10px 20px;
